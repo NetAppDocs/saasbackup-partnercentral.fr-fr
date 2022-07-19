@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: partnercentral_task_generate_reports.html 
+keywords: saas backup, partner central, generate, reports, 
+summary: 'Dans Partner Central, vous pouvez générer des rapports sur l"utilisation des licences, du stockage, des statistiques sur les tâches, les activités, les audits, et les renouvellements.' 
+---
+= Générer des rapports
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Dans SaaS Backup Partner Central, vous pouvez générer des rapports sur l'utilisation des licences, du stockage, des statistiques sur les tâches, les activités, les audits, et les renouvellements.
+
+.Étapes
+. Dans le tableau de bord, cliquez sur *Rapports* à gauche.
++
+image:reports_page.png["page de rapports"]
+
+. Sélectionnez la catégorie pour laquelle vous souhaitez générer un rapport.
++
+** *Utilisation de la licence*
+** *Utilisation du stockage*
+** *Statistiques d'emploi*
+** *Rapport d'activité*
+** *Rapport de vérification*
+** *Rapport de renouvellement*
+
+
+. Cliquez sur *generate* sous la catégorie. Les rapports sont générés au format CSV.
+

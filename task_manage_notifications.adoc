@@ -1,0 +1,50 @@
+---
+sidebar: sidebar 
+permalink: partnercentral_task_manage_notifications.html 
+keywords: saas backup, partner central, settings, manage, notifications, add, delete, modify, enable, disable, customize 
+summary: Dans SaaS Backup Partner Central, vous pouvez ajouter, modifier et supprimer des notifications pour différents utilisateurs. 
+---
+= Gérer les notifications
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Dans SaaS Backup Partner Central, vous pouvez ajouter, modifier et supprimer des notifications pour différents utilisateurs.
+
+Vous pouvez activer ou désactiver les notifications suivantes :
+
+* Ajouter un utilisateur au rôle
+* Suppression du client réussie
+* Intégration client réussie
+* Échec de la suppression du client
+* Défaillance intégrée au client
+
+
+.Étapes
+. Dans le tableau de bord, cliquer sur image:settings_icon.png["icône paramètres"].
+. Sélectionnez *Notifications* dans le menu déroulant.
++
+image:settings_notifications.png["menu déroulant paramètres sélectionnez notifications"]
+
+. Dans *notification Management*, vous pouvez ajouter, modifier et supprimer des notifications.
++
+image:notification_management_screen.png["écran de gestion des notifications"]
+
++
+.. Pour ajouter des notifications, cliquez sur image:add_notification_icon.png["icône ajouter une notification"] pour ajouter des notifications à un utilisateur.
++
+Dans *Ajouter une notification*, entrez l'adresse électronique de l'utilisateur. Sélectionnez les notifications que vous souhaitez activer et cliquez sur *Ajouter*.
+
++
+image:add_notifications_screen.png["personnaliser les notifications"]
+
+.. Pour modifier les notifications, cliquez sur image:pencil_icon.png["icône crayon"].
+.. Pour supprimer des notifications, cliquez sur image:delete_icon_blue.png["icône supprimer"].
+
+
+

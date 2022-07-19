@@ -1,0 +1,105 @@
+---
+sidebar: sidebar 
+permalink: partnercentral_task_add_and_manage_customers.html 
+keywords: saas backup, partner central, microsoft 365, customer, customers, add, manage, delete 
+summary: Vous pouvez ajouter et gérer vos clients dans SaaS Backup Partner Central. 
+---
+= Ajoutez, supprimez et gérez des clients
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez ajouter et supprimer des clients dans SaaS Backup Partner Central. Pour gérer les données des clients, vous utiliserez l'interface utilisateur SaaS Backup pour Microsoft 365.
+
+Si vous souhaitez ajouter un locataire existant SaaS Backup pour Microsoft 365 dans Partner Central, contactez le support SaaS Backup à l'adresse saasbackupsupport@netapp.com.
+
+
+
+== Ajouter un client
+
+.Étapes
+. Dans le tableau de bord, cliquez sur *clients* à gauche.
++
+image:dashboard_customer_view.png["vue client du tableau de bord"]
+
+. Dans l'écran *liste de clients*, cliquez sur image:add_customer_icon.png["icône ajouter un client"] pour ajouter un nouveau client.
++
+image:add_customer_screen.png["écran ajouter un client"]
+
+. Dans la fenêtre contextuelle, cliquez sur l'icône Office 365 pour créer un nouvel abonnement client.
+. Entrez l'adresse e-mail et le mot de passe de votre compte de service administrateur global Microsoft 365, puis cliquez sur *connexion*.
+. Une liste des autorisations demandées par SaaS Backup pour Microsoft 365 s'affiche. Cliquez sur *Accept*.
+. De retour dans Partner Central, cliquez sur image:add_icon.png["ajouter une icône"] Sous *action* dans la *liste de clients* pour compléter *Inscription client*.
++
+image:complete_customer_signup.png["cliquez sur l'icône ajouter pour terminer l'inscription du client"]
+
+. Entrez les informations utilisateur requises.
++
+image:complete_customer_signup_window.png["complétez l'inscription du client"]
+
++
+** Sélectionnez le type d'abonnement :
++
+*** S'il s'agit d'un abonnement d'essai, saisissez le code d'activation.
+*** Si il s'agit d'un abonnement sous licence, entrez votre identifiant SSO NetApp et votre numéro de série de produit.
+
+
+** Sélectionnez votre stockage sous *Storage Selection*.
++
+Si vous utilisez le stockage fourni par SaaS Backup :
+
++
+... Cliquez sur *SaaS Backup fournis Storage*.
+... Sélectionnez l'option de stockage *Amazon S3* ou *Azure Blob*.
+... Sélectionnez la région *AWS S3* ou *Azure Blob* pour votre sauvegarde. Vous devez sélectionner la région la plus proche de l'emplacement physique des données que vous sauvegardez.
+
+
+
+
+. Cliquez sur *Créer*. Une mise à jour de l'état apparaît sur le côté droit, indiquant « Inscription du client en cours ». Lorsque la mise à jour de statut est terminée, le statut devient "Inscription client terminée" et le statut devient actif.
+
+
+
+
+== Supprimer un client
+
+.Étapes
+. Dans le tableau de bord, cliquez sur *clients* à gauche.
++
+image:dashboard_customer_view.png["vue client du tableau de bord"]
+
+. Recherchez le client que vous souhaitez supprimer dans la liste des clients. Cliquez sur image:delete_icon_red.png["icône supprimer"] pour supprimer le client.
++
+image:delete_customer.png["supprimer le client"]
+
+
+
+
+
+== Gestion des données clients
+
+Après avoir ajouté de nouveaux clients, vous pouvez afficher les informations relatives au client, telles que le nom du client, l'état et le nombre total de travaux à partir du tableau de bord dans Partner Central.
+
+image:dashboard_customers_view.png["tableau de bord vue des clients"]
+
+Pour gérer les données des clients, vous utiliserez l'interface utilisateur SaaS Backup pour Microsoft 365.
+
+.Étapes
+. Cliquez sur image:return_icon.png["icône retour"] Redirection vers l'interface utilisateur de SaaS Backup pour Microsoft 365 pour gérer les données client.
++
+image:redirect_customer_saasbackup.png["Redirection vers SaaS Backup pour Microsoft 365"]
+
++
+Pour revenir à Partner Central, cliquez sur *Partner Central* sous le nom du client sur le côté gauche de l'interface utilisateur SaaS Backup pour Microsoft 365.
+
++
+image:return_partner_central.png["Retour à Partner Central"]
+
+
+
+Pour plus d'informations sur l'utilisation de SaaS Backup pour Microsoft 365, rendez-vous sur link:https://docs.netapp.com/us-en/saasbackupO365["Documentation en ligne NetApp SaaS Backup pour Microsoft 365"].

@@ -1,0 +1,50 @@
+---
+sidebar: sidebar 
+permalink: index.html 
+summary: Bienvenue sur le portail de documentation de NetApp SaaS Backup pour Partner Central. 
+---
+= Documentation NetApp SaaS Backup Partner Central
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:keywords: saas backup, partner central, partners, microsoft 365, documentation, new, get started, provide feedback, get help, find, information
+
+
+NetApp SaaS Backup Partner Central est une interface destinée aux partenaires NetApp de gérer et d'assistance les clients qui utilisent SaaS Backup pour Microsoft 365. Il fournit des étapes pour s'inscrire dans Partner Central, gérer vos clients et apporter des modifications aux paramètres et aux informations sur les partenaires et les clients.
+
+
+
+== Découvrez les nouveautés
+
+* link:partnercentral_reference_new.html["Notes de mise à jour"]
+* Pour obtenir des mises à jour de produit, des vidéos pratiques et des informations sur l'état de santé de vos services, consultez la vue du tableau de bord *Nouveautés*.
++
+image:whats_new.png["Partner Central *Nouveautés*"]
+
+
+
+
+
+== Commencez
+
+* link:partnercentral_task_register.html["Inscrivez-vous à Partner Central"]
+* link:partnercentral_task_add_and_manage_customers.html["Ajouter et gérer des clients"]
+
+
+
+
+== Obtenez de l'aide, trouvez plus d'informations et donnez votre avis
+
+* Pour accéder à différentes ressources de support, accédez à *support* dans l'interface utilisateur de Partner Central.
++
+image:support_page.png["Page de support"]
+
++
+La page *support* permet d'accéder aux articles *Knowledge base*, *Communities*, *User Manual* pour SaaS Backup pour Microsoft 365 et *Trust Center*. Vous pouvez également nous faire part de vos commentaires et poser des questions si vous sélectionnez *Contactez-nous*.
+
+* link:https://cloud.netapp.com/saas-backup["Page produit de SaaS Backup pour Microsoft 365"]
+* link:https://docs.netapp.com/us-en/saasbackupO365/["Documentation utilisateur de SaaS Backup pour Microsoft 365"]
+

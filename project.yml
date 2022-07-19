@@ -1,0 +1,41 @@
+---
+settings:
+  name: SaaS Backup For Partner Central
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: fr-fr,us-en,ja-jp,zh-cn,zh-tw,ko-kr,de-de
+sidebar:
+  entries:
+  - title: Partner Central
+    entries:
+    - title: Documentation NetApp SaaS Backup Partner Central
+      url: "/index.html"
+    - title: Notes de mise à jour
+      entries:
+      - title: Nouvelles fonctionnalités et mises à jour
+        url: "/partnercentral_reference_new.html"
+      - title: Problèmes et limites connus
+        url: "/partnercentral_reference_limitations.html"
+    - title: Inscrivez-vous à Partner Central
+      url: "/partnercentral_task_register.html"
+    - title: Ajouter et gérer des clients
+      url: "/partnercentral_task_add_and_manage_customers.html"
+    - title: Surveiller les travaux du client
+      url: "/partnercentral_task_monitor.html"
+    - title: Générer des rapports
+      url: "/partnercentral_task_generate_reports.html"
+    - title: Gérer les paramètres
+      entries:
+      - title: Gérer les notifications
+        url: "/partnercentral_task_manage_notifications.html"
+      - title: Gérez les rôles
+        url: "/partnercentral_task_manage_roles.html"
+      - title: Gérer les clés
+        url: "/partnercentral_task_manage_keys.html"
+    - title: Statistiques
+      url: "/partnercentral_reference_statistics.html"
+    - title: Où obtenir de l'aide et trouver des informations
+      url: "/partnercentral_reference_get_help_find_info.html"

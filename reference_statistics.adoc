@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: partnercentral_reference_statistics.html 
+keywords: partner central, saas backup, microsoft 365, numerical, graphical, statistics 
+summary: 'Dans SaaS Backup Partner Central, l"écran *Statistics* affiche des statistiques dans plusieurs catégories pour vous aider à gérer vos clients de SaaS Backup pour Microsoft 365.' 
+---
+= Statistiques
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Dans SaaS Backup Partner Central, la vue *Statistics* affiche des statistiques pour vous aider à gérer vos clients de SaaS Backup pour Microsoft 365.
+
+Des statistiques numériques apparaissent pour les éléments suivants :
+
+* * Clients sous licence*
+* * Essais (clients)*
+* *Travaux actifs*
+* *Exporter des travaux*
+* *Utilisateurs protégés*
+* *Restaurer les tâches*
+* *Nombre total de clients*
+* *Total des emplois*
+
+
+image:numerical_statistics.png["statistiques numériques"]
+
+Des statistiques graphiques apparaissent sur les éléments suivants :
+
+* * Clients*
+* *Emplois*
+
+
+image:graphical_statistics.png["statistiques graphiques"]

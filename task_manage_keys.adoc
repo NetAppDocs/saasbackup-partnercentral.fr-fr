@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: partnercentral_task_manage_keys.html 
+keywords: saas backup, partner central, key management, manage, key, keys, add, download, PowerShell 
+summary: 'Vous pouvez ajouter et gérer des clés pour renforcer la sécurité dans Partner Central. Vous pouvez également trouver la prise en charge de l"interface de l"applet de commande PowerShell.' 
+---
+= Gérer les clés
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez ajouter et gérer des clés pour une sécurité améliorée dans Partner Central à partir du paramètre *Key Management*. Vous pouvez également trouver la prise en charge de l'interface de l'applet de commande PowerShell.
+
+
+
+== Ajouter des clés
+
+.Étapes
+. Dans le tableau de bord, cliquer sur image:settings_icon.png["icône paramètres"].
+. Sélectionnez *Key Management* dans le menu déroulant.
++
+image:settings_key_management.png["gestion des touches du menu déroulant paramètres"]
+
+. Pour ajouter une clé, cliquez sur image:add_key_icon.png["icône ajouter une clé"].
++
+image:key_management_screen.png["écran de gestion des clés"]
+
+. Dans *Ajouter une clé*, procédez comme suit :
++
+image:add_key_screen.png["écran ajouter des touches"]
+
++
+.. Sélectionnez l'utilisateur.
+.. Ajouter une description.
+.. Sélectionnez expiration.
+.. Cliquez sur *Ajouter*. Une boîte de dialogue apparaît avec le message "a généré la clé avec succès".
+
+
+. Cliquez sur image:eye_show_key_icon.png["afficher l'icône de touche"] pour afficher la clé non chiffrée et cliquez sur image:eye_hide_key_icon.png["masquer l'icône de touche"] pour masquer la clé non chiffrée.
+
+
+
+
+== Télécharger PowerShell
+
+.Étapes
+. Dans le tableau de bord, cliquer sur image:settings_icon.png["icône paramètres"].
+. Sélectionnez *Key Management* dans le menu déroulant.
++
+image:settings_key_management.png["gestion des touches du menu déroulant paramètres"]
+
+. Pour télécharger PowerShell, cliquez sur image:download_powershell_icon.png["Icône télécharger PowerShell"].
+. Installez le programme téléchargé.
+. Après l'installation du programme, double-cliquez sur l'icône de *SaaS Backup PowerShell* sur votre bureau pour démarrer l'applet de commande PowerShell.
+
+
+Pour plus d'informations sur l'utilisation du module NetApp SaaS Backup PowerShell, reportez-vous au link:https://fieldportal.netapp.com/content/1255854["Guide NetApp SaaS Backup PowerShell (TR-4873)"].
