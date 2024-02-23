@@ -1,6 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: index.html 
+keywords: saas backup, partner central, partners, microsoft 365, documentation, new, get started, provide feedback, get help, find, information 
 summary: Bienvenue sur le portail de documentation de NetApp SaaS Backup pour Partner Central. 
 ---
 = Documentation NetApp SaaS Backup Partner Central
@@ -10,7 +11,6 @@ summary: Bienvenue sur le portail de documentation de NetApp SaaS Backup pour Pa
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:keywords: saas backup, partner central, partners, microsoft 365, documentation, new, get started, provide feedback, get help, find, information
 
 
 NetApp SaaS Backup Partner Central est une interface destinée aux partenaires NetApp de gérer et d'assistance les clients qui utilisent SaaS Backup pour Microsoft 365. Il fournit des étapes pour s'inscrire dans Partner Central, gérer vos clients et apporter des modifications aux paramètres et aux informations sur les partenaires et les clients.
